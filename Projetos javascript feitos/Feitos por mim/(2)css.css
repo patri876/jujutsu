@@ -1,0 +1,90 @@
+/*Deixar o navegador padrão*/
+/*zera o navegador*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Configuração de fonte e tamanho da tela*/
+body,
+html {
+  width: 100vw;
+  height: 300vh;
+
+  font-family: "Momo signature", cursive;
+}
+
+/*Configuração do centro da página*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("d:/imagens/571e235b9d5a4e60545ea7cbcf4828df.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Configuração de texto*/
+h1 {
+  color: rgb(26, 21, 96);
+  font-size: 120px;
+  text-align: right;
+  margin-top: 100px;
+  transform: translateY(-800px);
+  text-shadow:
+    0 0 5px #fff,
+    0 0 100px #fff,
+    0 0 20px #2e088f,
+    0 0 40px #7ca6ef,
+    0 0 80px #27cbce;
+
+  animation: brilho 2s infinite;
+}
+
+@keyframes brilho {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  color: rgb(21, 16, 96);
+  font-size: 60px;
+
+  margin-top: 110px;
+  transform: translateY(250px);
+  text-shadow:
+    0 0 5px #fff,
+    0 0 100px #fff,
+    0 0 20px #2e088f,
+    0 0 40px #7ca6ef,
+    0 0 80px #27cbce;
+
+  animation: brilho 2s infinite;
+}
+
+@keyframes brilho {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

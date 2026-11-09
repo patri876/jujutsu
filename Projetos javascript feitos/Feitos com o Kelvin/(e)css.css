@@ -1,0 +1,62 @@
+
+/*Deixar o navegador padrão*/
+/*zera o navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Configuração de fonte e tamanho da tela*/
+body,html{
+    width: 90vw;
+    height: 130vh;
+
+    font-family: "Momo signature", cursive;
+}
+
+/*Configuração do centro da página*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("d:/imagens/1122683.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Configuração de texto*/
+h1{
+    color: blue;
+    font-size: 100px; /* tamanho da fonte */
+    position: relative;
+    top: -200px;
+
+
+    text-shadow: 3px 3px 10px rgba(91, 13, 144, 0.8);
+    
+
+    /*animação*/
+    animation: pulsar 2s infinite;
+}
+
+@keyframes pulsar{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+img{
+    width: 10%;
+}

@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  background-image: url(d:/imagens/wp5602005.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: rgb(56, 102, 185);
+  font-size: 140px;
+  margin-top: 800px;
+
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #0099ff,
+    0 0 40px #3085cb,
+    0 0 80px #a7b1e4;
+
+  animation: brilho 2s infinite;
+}
+
+@keyframes brilho {
+  0% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  25% {
+    transform: translateX(-20px);
+  }
+
+  50% {
+    opacity: 0.4;
+    transform: translateX(20px);
+  }
+
+  75% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

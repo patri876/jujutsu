@@ -1,0 +1,67 @@
+/*Deixar o navegador padrão*/
+/*zera o navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Configuração de fonte e tamanho da tela*/
+body,html{
+    width: 90vw;
+    height: 130vh;
+
+    font-family: "Momo signature", cursive;
+}
+
+/*Configuração do centro da página*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("d:/imagens/4k-anime-space-mjm37d23l8s4d9on.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Configuração de texto*/
+h1{
+    color: palevioletred;
+    font-size: 100px;
+
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000,
+    0 0 80px #ff0000;
+
+    animation: brilho 2s infinite;
+}
+
+@keyframes brilho{
+
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.4;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
